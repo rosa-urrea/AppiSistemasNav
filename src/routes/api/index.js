@@ -5,6 +5,7 @@ const authRouter = require('./auth.route')
 const usersRouter = require('./users.route')
 const categoriasRouter = require('./categorias.route')
 const estadosRouter = require('./estados.route')
+const municipiosRouter = require('./municipios.route')
 const filesRouter = require('./files.route')
 
 
@@ -15,6 +16,7 @@ router.use('/auth', authRouter) // mount auth paths
 router.use('/users', usersRouter)
 router.use('/categorias', categoriasRouter)
 router.use('/estados', estadosRouter)
+router.use('/municipios', municipiosRouter)
 
 
 module.exports = router
