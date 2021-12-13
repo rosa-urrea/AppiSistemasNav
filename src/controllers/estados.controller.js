@@ -11,7 +11,7 @@ exports.create = async (req, res, next) => {
     res.status(httpStatus.CREATED)
     res.send({
       success: true,
-      message: 'Esatdos creado!'
+      message: 'Estados creado!'
     })
   } catch (error) {
     return next(error)
@@ -28,7 +28,7 @@ exports.update = async (req, res, next) => {
     res.status(httpStatus.CREATED)
     res.send({
       success: true,
-      message: 'Esatdos actualizado!'
+      message: 'Estado actualizado!'
     })
   } catch (error) {
     return next(error)
